@@ -32,20 +32,12 @@ public class Song {
         this.songName = songName;
     }
 
-    public String getlyricist() {
+    public String getLyricist() {
         return lyricist;
     }
 
-    public void setlyricist(String lyricist) {
+    public void setLyricist(String lyricist) {
         this.lyricist = lyricist;
-    }
-
-    public String getSinger() {
-        return singer;
-    }
-
-    public void setSinger(String singer) {
-        this.singer = singer;
     }
 
     public String getSinger() {
