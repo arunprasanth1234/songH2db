@@ -15,8 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.*;
 import com.example.song.service.SongH2Service;
 import com.example.song.model.Song;
-import org.springframework.web.server.ResponseStatusException;
-import org.springframework.http.HttpStatus;
 
 @RestController
 public class SongController {
@@ -25,7 +23,7 @@ public class SongController {
     private SongH2Service songService;
 
     @GetMapping("/songs")
-    public ArrayList<Song> getsongs() {
+    public ArrayList<Song> getSongs() {
         return songService.getSongs();
     }
 

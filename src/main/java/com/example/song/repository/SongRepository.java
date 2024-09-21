@@ -2,7 +2,8 @@
 package com.example.song.repository;
 
 import com.example.song.model.Song;
-import java.util.ArrayList;
+
+import java.util.*;
 
 public interface SongRepository {
 
